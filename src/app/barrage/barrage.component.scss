@@ -1,0 +1,62 @@
+
+.panneau-waingunga {
+  background-image: url(/assets/images/png/p-waingunga/pw.png);
+  height: 12vh;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.barrage {
+  height: 60vh;
+  margin-bottom: 20px;
+}
+
+/*.branche {
+  background-image: url(/assets/images/png/barage/b.png);
+  height: 95%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 0;
+  bottom: 0px;
+  position: relative;
+}*/
+
+.branche {
+  background-image: url(/assets/images/png/barage/b.png);
+  // width: 507px;
+  // height: 100%;
+  left: 9%;
+  bottom: 6%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  bottom: 0px;
+  margin: auto;
+  position: absolute;
+  clip-path: url(#clipping);
+}
+
+.panneau-barrage{
+  background-image: url(/assets/images/png/pb/pb.png);
+  height: 12vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.frame-barrage {
+  //background-image: url(/assets/images/png/frame-b.png);
+  height: 90%;
+  margin-top: 3%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.hider {
+  background-color: #fffdf8
+}

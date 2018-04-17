@@ -1,0 +1,22 @@
+<div class="row">
+  <div class="col-12 panneau-waingunga">
+    <!-- Panneau -->
+  </div>
+  <div class="col-12">
+    <div class="frame-barrage">
+        <div class="branche" #branche [style.width]="woodWidth + 'px'" [style.height]="woodHeight + 'px'">
+          <svg>
+            <defs>
+              <clipPath id="clipping">
+                <rect [attr.y]="hidingLvl" x="0" [style.width]="clippingWidth" [style.height]="clippingHeight" />
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
+      <img src="/assets/images/png/frame-b.png" class="barrage" #barage/>
+    </div>
+  </div>
+  <div class="col-12 panneau-barrage">
+    <!-- panneau -->
+  </div>
+</div>
